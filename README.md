@@ -1,24 +1,7 @@
-# README
+# Re-Former
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is part of [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms?ref=lnav).
 
-Things you may want to cover:
+## Project 1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The object of this app is to showcase a **Bare Metal Form and Helpers**. It will have a form built initially the old fashioned way, then the *Rails way*.
