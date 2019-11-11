@@ -12,7 +12,7 @@
   <input type="submit" value="Add User">
 </form>-->
 
-<%= form_tag '/users' do %>
+<!--<%= form_tag '/users' do %>
 <%= label_tag 'username' %>
 <%= text_field_tag 'user[username]' %>
 
@@ -23,4 +23,17 @@
 <%= password_field_tag 'user[password]' %>
 
 <%= submit_tag %>
+<% end %>-->
+
+<%= form_for @user do |f| %>
+<%= f.label :username, 'Username' %>
+<%= f.text_field :username %>
+
+<%= f.label :email, 'Email' %>
+<%= f.email_field :email %>
+
+<%= f.label :password, 'Password' %>
+<%= f.password_field :password %>
+
+<%= f.submit %>
 <% end %>
